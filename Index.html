@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/cao.css">
+  
+    <link rel="stylesheet" href="bootstrap.min.css" >
+    <link rel="stylesheet" href="fontawesome-free-5.14.0-web/css/all.css">
+
+    <title>Calculator</title>
+
+</head>
+
+<body >
+
+  <div id="main">   
+    
+    
+    <table id="tabletop">
+      <tr>
+        <th>
+              <div class="containerClock">
+              <div  class="clock" >
+                 <img id="clock" src="Clock/Clock.png">
+                 <img id="hour"  src="Clock/N3.png" class="hands" >
+                 <img id="min"   src="Clock/N2.png" class="hands" >
+                 <img id="sec"   src="Clock/N1.png" class="hands" >
+                 <input id="box" >
+            </div>
+        </th>
+        <th>
+              <div id="Date22" style="width: 100%;height: 100%;border: 2% solid black;margin-left: 0%;font-family: sans-serif" style="position: relative;">
+                <img src="Clock/Cal.png" style="width: 100%;height: 100%;position: relative;"  class="calender">
+              <a id="Date" style="position: absolute;">Date</a>
+            </div>
+        </th>
+      </tr>
+  </table>
+              
+              
+              
+              
+           
+ 
+  
+    <div id="calculator">
+        
+   
+    
+    <table id="table2">     
+       
+        <tr id="trscreens">
+          <th colspan="4" >
+              <input id="screen">
+              <input id="screen3" class="extra-screen"> 
+              <input id="screen2" class="extra-screen">
+              <input id="result">
+              <a id="msg" style="color:  lightseagreen;">Deg</a>
+          </th>
+
+        </tr>
+        
+       
+      
+
+        <tr>
+          <td colspan="2"><button id="scientific" style="margin-top: auto;" class="simp btn btn-info" onclick="scin()"><h4 style="font-family: sans-serif;">Scintific</h4></button></td>
+          <td><button  id="circle2" ><i class="fab fa-dochub" onclick="Deg();" ></i></button></td>
+          <td><button  id="circle3" ><i class="far fa-registered" onclick="var g=0;Rad(g);"></i></button></td>      
+          
+        </tr>
+      
+        
+        <tr> 
+          <td> <button  onclick="var x =innerText;displaynull();">C</button></td>
+          <td> <button  onclick="var x =innerText;displaybutton(x);"class="simp">+</button></td>
+          <td> <button  onclick="var x =innerText;displaybutton(x);"class="simp">-</button></td>
+          <td> <button  onclick="back()">Back</button></td>
+        </tr>
+
+        <tr>
+          <td> <button  onclick="var x =innerText;displaybutton(x);">7</button></td>
+          <td> <button  onclick="var x= innerText;displaybutton(x);">8</button></td>
+          <td> <button  onclick="var x= innerText;displaybutton(x);">9</button></td>
+          <td> <button  onclick="var x= innerText;displaybutton(x);" class="simp">X</button></td>
+        </tr>
+        
+        <tr>
+          <td> <button  onclick="var x= innerText;displaybutton(x);">4</button></td>
+          <td> <button  onclick="var x= innerText;displaybutton(x);">5</button></td>
+          <td> <button  onclick="var x= innerText;displaybutton(x);">6</button></td>
+          <td> <button  onclick="var x= innerText;displaybutton(x);" id="sin" class="simp">/</button></td>
+        </tr>
+        
+        <tr>
+          <td> <button  onclick="var x= innerText;displaybutton(x);">1</button></td>
+          <td> <button  onclick="var x= innerText;displaybutton(x);">2</button></td>
+          <td> <button  onclick="var x= innerText;displaybutton(x);">3</button></td>
+          <td> <button  onclick="var x= innerText;displaybutton(x);cube();" class="simp" id="cube" >(  )3</button></td>
+        </tr>
+          
+
+          <td colspan="2"> <button  onclick="s();ev();">=</button></td>
+          <td> <button  onclick="var x= innerText;displaybutton(x);" class="simp" style="width: 100%;margin-left: 0%;">.</button></td>      
+          <td> <button  onclick="var x= innerText;displaybutton(x);" class="simp" style="width: 100%;margin-left: 0%;" id="sq">(  )2</button></td>
+
+      </table>
+    </table>
+    </div>
+    <div></div>
+    </div>
+
+
+    <script type="text/javascript" src="JS/cao copy.js"></script>  
+</body>
+</html>

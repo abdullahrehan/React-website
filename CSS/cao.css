@@ -1,0 +1,259 @@
+#table1{
+    width:100%;
+    height: 10%;
+}
+
+.containerClock{
+    width: 74%;
+    height: 80%;
+    margin-top: -22%;
+    
+  }
+  #tabletop tr{
+
+height: 20%;
+
+
+  }
+
+
+  .clock  {
+  background-repeat:none ;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  
+  }
+  
+  #clock{
+  
+    
+  
+  width: 100%;
+  height: 100%;
+  margin-left: 2.2%;
+  }
+  
+  #hour,#min,#sec{
+    width: 100%;
+  height: 100%;
+  
+  
+  }
+  th{
+    height: 100%;
+    width: 50%;
+  }
+  
+  
+  .hands{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  
+  }
+  #box{
+   
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-210%) translateY(-56%);
+  background-color: rgb(12, 12, 12);
+  width: 7%;;height: 9%;
+  border-radius: 90%;
+  border:0% solid black;
+  opacity: 0;
+  
+  }
+  #Date{
+    position: absolute;
+    top: 0;
+    left: 0;
+  margin-top: 15%;
+  margin-left: 55.5%;
+  font-size: 7vw;
+  color: rgb(51, 51, 51);
+  
+  
+  }#Day{
+    position: absolute;
+    top: 11.5%;
+    left: 74.5%;
+   width: 25%;
+   height: 5%;
+   font-size: 7.5vw;
+  color: rgb(51, 51, 51);
+  }
+  
+  
+
+/*Main Calculator*/
+.container{
+    text-align: center;
+    margin-top:23px
+}
+body{
+background: url(red.jpg);
+}
+
+#main{
+    width: 100%;
+    height:100%;
+    margin-top:0%;
+    margin-left:0%;
+    position: absolute;
+    top:0;
+    background-color:rgb(15, 27, 27);
+}
+
+#robo-pic{
+    width: 100%;
+    height: 60%;
+    background-repeat: no-repeat;
+}
+
+#calculator{
+    width: 90%;
+    height:75%;
+    margin-top: 0;
+    margin-left:5%;
+    position:absolute;
+    top:25%;
+}
+#trscreens{
+
+    height: 9%;
+}
+
+#screen{
+    width:100%;
+    height:10%;
+    margin-top:0%;
+    margin-left:0%;
+    background-color:#0007;
+    color:white;
+    position: absolute;
+    top: 0;  }
+
+#result{
+    width:100%;
+    height:45%;
+    margin-top:10%;
+    margin-left:0%;
+    text-align:right;
+    background-color:#0009;
+    color:white;
+}
+#msg{
+
+    margin-top: -5%;
+}
+
+#table2{
+    margin-top: auto;
+    width: 100%;
+    height: 100%;
+}
+
+input{
+    border-radius: 8%;
+    border: 2px solid#00CED1;
+    font-size:34px;
+    height: 100%;
+    width:100%;
+    font-size: 22%;
+}
+#table2 tr{
+
+    height: 0%;
+    margin-top: 0%;
+    width: 100%;
+}
+#table2 tr th{
+width: 100%;
+height: 18%;
+
+
+}
+
+#table2 tr td {
+    width: 20%;
+    height: 10%;
+
+}
+
+button{
+    border: 1px solid #00CED1;
+    border-radius: 5%;
+    font-size: 40px;
+    background-color: #0009;
+    width: 100%;
+    height:100%;
+    color: white;
+}
+button:hover{
+    
+    background-color: #0001;
+    border: 1px solid #00CED1;
+}
+.extra-screen{
+
+    
+    width:0%;
+    height:0%;
+    margin-top:0%;
+    margin-left:0%;
+    opacity: 0;
+    text-align:right;
+    background-color:#0009;
+    color:white;
+
+
+}
+.circle{
+
+    border-radius:90% ;
+    background-color: #0000;
+    border: 0px solid #0000;
+    
+    font-size: 10vw;
+    color: white; 
+display: block;   
+   
+}
+
+
+#circle2{
+    
+    border: 0px solid #0000;
+  
+}
+    .circle1{
+        font-size: 9vw;
+        border-radius:90% ;
+        background-color: #0000;
+        border: 0px solid #0000;
+        color: white;
+        display: block;
+      
+
+    }
+    
+#circle3{
+    border: 0px solid #0000;
+          
+}
+.switch{
+
+    margin-left: 20%;
+  
+
+}#Deg{
+
+    
+
+}
+.Deg-Red{
+    opacity:100 ;
+
+}
